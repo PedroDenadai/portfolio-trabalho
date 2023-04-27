@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+    background-color: rgb(30,30,30);
+    }
+    #home {
+    background-image: url(/backgroundVermelho.png);
+    background-position:center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    }
+    
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#nav-bar h2 {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+span {
+    color:brown;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+
+
+}
+
+#nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: x-large;
+
+}
+
+
+
+#info {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+
+}
+
+#info h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+#info h1, #card1 h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    
+
+}
+
+#info h3 , #sobre-mim h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+
+#sobre-mim h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#foto{
+    height: 30vh;
+    width: 20vw;
+    border-radius: 50%;
+    margin: 3%;
+}
+
+#card1 h1 {
+    color: white;
+} 
+#card1 h1, #texto-exp h1, #contato h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#sobre-mim, #texto-exp{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+#nav-bar ul li:hover{
+    background-color: brown;
+    transform: scale(1.2);
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#sobre-mim p, #texto-exp p, #sobre-mim p, #sobre-mim ul li{
+    font-size: x-large;
+    color: white;
+}
+
+/*-------- Projetos -------*/
+
+#projetos{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projeto-info{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+#java-icon, #python-icon{
+    width: 10vw;
+    height: 15vh;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.projeto-info p{
+    color: white;
+    font-size: xx-large;
+}
+
+.projeto-info button{
+    width: 8vw;
+    height: 4vh;
+}
+
+
+
+#projetos h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+#sobre-mim{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card1, #card2, #card3{
+    width: 80vw;
+    height: 25vh;
+    background-color:brown;
+    border-radius: 30px;
+}
+
+#card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card1 p{
+    margin: 10px;
+}
+
+#card2, #card3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card2 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#card3 p {
+    margin: 10px;
+}
+
+#sobre-mim h2{
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+#sobre-mim ul li{
+    margin: 20px;
+}
+
+#contato{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(40,40,40);
+}
+
+
+
+#contato h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;    
+}
+#icons-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15%;
+}
+
+
+.icon-contato{
+    height: 15vh;
+    width: 10vw;
+}
